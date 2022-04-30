@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.enter {
+
+    text-decoration: none;
+}
+
+body { 
+    font-family: Montserrat;
+    color: white;
+
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(95deg, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(95deg, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    animation: gradient 10s ease infinite;
+    background-size: 200% 200%;
+}
+
+@keyframes gradient { 
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.text {
+    margin-top: 150px;
+    font-size: 2.4em;
+}
+
+.enter {
+    width: 290px;
+    height: 52.29px;
+
+    color: white;
+    background: #686360;
+    border: 2px solid white;
+    border-radius: 11.0764px;
+    text-decoration: none;
+    cursor: pointer;
+
+    font-weight: 600;
+    transition: 1s;
+}
+
+.enter:hover {
+    background: rgba(255, 255, 255, 0.994);
+    border: 2px solid #000000;
+    color: black;
+    transition: 0.3s;
+}

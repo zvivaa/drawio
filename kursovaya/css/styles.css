@@ -1,0 +1,184 @@
+
+
+body {
+    font-family: Montserrat;
+}
+
+.clear{
+    clear: both;
+}
+
+#bonus {
+    display: none;
+}
+
+.size-35 {
+    font-size: 35px;
+}
+
+.popup-title {
+    margin-left: -10px;
+}
+
+.close-popup {
+    cursor: pointer;
+    margin-left: 113px;
+}
+
+.btn-depositeindex{
+    margin-left: 0px;
+
+    display: block;
+    border: 2px solid white;
+    padding: 20px 15px 45px 15px;
+    width: 200px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    border-style: none;
+    font-weight: 600;
+    font-size: 18.92px;
+    line-height: 23px;
+    color: #FFFFFF;
+    background: #4e4eec;
+}
+  .btn-depositeindex:hover {
+    background: rgba(255, 107, 0, 0.37);
+    border: 2px solid #FF6B00;
+    padding: 18px 15px 43px 13px;
+}
+  .btn-depositeindex:active {
+    background: #FFFFFF;
+    border: 2px solid #FF6B00;
+    color: #212121;
+    padding: 18px 15px 43px 13px;
+}
+
+.popup-bg {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0000008a;
+}
+.popup {
+    position: absolute;
+    background: #ffffff;
+    width: 576px;
+    height: 704px;
+    border-radius: 36px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 62px;
+    padding-top: 59px;
+}
+
+.mesage_error{
+    color: #cc0000;
+}
+
+.success_message{
+    color: green;
+}
+
+.block_for_messages{
+    text-align: center;
+}
+
+#header {background: rgb(183, 162, 240);}
+
+#header, #footer{
+    border: 2px solid #000;
+}
+
+#header{
+    padding-left: 10px;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
+#header h2, #footer h2{
+    text-align: center;
+    margin: 0;
+}
+
+#auth_block{
+    width: 290px;
+    float: right;
+    text-align: center;
+}
+
+#auth_block a{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+}
+
+#auth_block a:hover{
+    text-decoration: underline;
+}
+
+#link_register, #link_control{
+    float: left;
+    margin-top: -15px;
+}
+
+#link_auth, #link_logout{
+    float: right;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+#link_register a{
+    background: #54d854;
+}
+
+#link_auth a, #link_logout a{
+    background: #4e4eec;
+    text-align: center;
+}
+
+#link_control a{
+    background: #2c7bd0;
+}
+
+/* Блок с формой регистрации */
+#form_register, #form_auth{
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+#authorized h2{
+    text-align: center;
+}
+
+th 
+{
+    background: rgb(183, 162, 240);;
+    color: black;
+}
+td 
+{
+
+    background: rgb(183, 162, 240);;
+    color: black;
+}
+
+.soiskatel {
+    background-color: #adadc727;
+    border: 1px solid black;
+    margin-top: 75px;
+}
